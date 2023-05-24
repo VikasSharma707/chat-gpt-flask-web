@@ -25,7 +25,7 @@ jobs:
         - name: Run tests with pytest
           working-directory: app/
           run: |
-            pytest
+           /bin/bash -c "pytest"
   # Deployment job
   deploy:
     environment:
