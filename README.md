@@ -12,8 +12,8 @@
      git clone https://github.com/VikasSharma707/chat-gpt-flask-web
      docker build -t chat-gpt-flask-web .
      docker ps -a
-     docker run -p 8080:80 --name chat-gpt-flask-web -d chat-gpt-flask-web:lts
+     docker run -p 5000:5000 --name chat-gpt-flask-web -d chat-gpt-flask-web:lts
      
  ### Dockerhub
      docker pull vkssharma75/nextwebapp .
-     docker run -p 8080:80 --name chat-gpt-flask-web -d vkssharma75/nextwebapp 
+     docker run -p 5000:5000 --name chat-gpt-flask-web -d vkssharma75/nextwebapp 
